@@ -1,0 +1,6 @@
+# Ignorar el archivo de versiones de plugins
+lazy-lock.json
+
+# Ignorar plugins descargados y backups (si los tienes en esta carpeta)
+.netrwhist
+undo/
