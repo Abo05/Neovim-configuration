@@ -6,10 +6,6 @@ return {
     -- Use "vim.g" instead of "let g:"
     vim.g.vimtex_view_method = "zathura"
 
-    -- 2. The Leader Key
-    -- Use "vim.g" instead of "let"
-    vim.g.maplocalleader = ","
-
     -- NOTE:
     -- You do NOT need "filetype plugin indent on" or "syntax enable".
     -- lazy.nvim and Neovim handle this automatically nowadays.

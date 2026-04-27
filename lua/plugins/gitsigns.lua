@@ -19,10 +19,10 @@ return {
     local gs = package.loaded.gitsigns
     vim.keymap.set("n", "]c", gs.next_hunk, { desc = "Siguiente cambio Git" })
     vim.keymap.set("n", "[c", gs.prev_hunk, { desc = "Cambio Git anterior" })
-    vim.keymap.set("n", "<leader>hs", gs.stage_hunk, { desc = "Stage hunk" })
-    vim.keymap.set("n", "<leader>hr", gs.reset_hunk, { desc = "Reset hunk" })
-    vim.keymap.set("n", "<leader>hp", gs.preview_hunk, { desc = "Preview hunk" })
-    vim.keymap.set("n", "<leader>hb", function() gs.blame_line { full = true } end,
+    vim.keymap.set("n", "<leader>gs", gs.stage_hunk, { desc = "Stage hunk" })
+    vim.keymap.set("n", "<leader>gr", gs.reset_hunk, { desc = "Reset hunk" })
+    vim.keymap.set("n", "<leader>gp", gs.preview_hunk, { desc = "Preview hunk" })
+    vim.keymap.set("n", "<leader>gb", function() gs.blame_line { full = true } end,
       { desc = "Blame línea" })
   end,
 }
