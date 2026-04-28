@@ -31,6 +31,3 @@ vim.cmd("filetype plugin indent on")
 -- Disable unused providers
 vim.g.loaded_ruby_provider = 0
 vim.g.loaded_perl_provider = 0
-
-vim.opt.timeout = true
-vim.opt.timeoutlen = 500 -- Wait 500ms before timing out a key sequence

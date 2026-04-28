@@ -1,5 +1,4 @@
 vim.keymap.set("n", "<leader>cd", vim.cmd.Ex)
-vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
 
 -- Copy to system clipboard
 vim.keymap.set({"n", "v"}, "<leader>y", '"+y', { desc = "Yank to system clipboard" })
